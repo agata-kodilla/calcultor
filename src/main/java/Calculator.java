@@ -1,15 +1,11 @@
 public class Calculator {
-    private double result;
 
-    public Calculator() {
-        this.result = 0;
+    public int addition(int x, int y)
+    {
+        return x + y;
     }
-
-    public double addNumber(int num){
-        return result+num;
-    }
-
-    public double substractNumber(int num){
-        return result-num;
+    public int subtraction(int x, int y)
+    {
+        return x - y;
     }
 }
